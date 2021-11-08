@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layout :: header">
+</head>
+<body>	
+	<nav th:replace="layout :: navbar"></nav>
+	<br/>
+	<!--a th:text="${version}"></a-->
+	<h4>Results:</h4>
+	<table class="table table-bordered table-striped">
+	<thead class="thead-dark">
+		<tr>
+		<th>First name</th>
+		<th>Last name</th>
+		<th>Count</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr th:each="aemployeeProjectsCnt:${employeeProjectsCnt}">
+		<td th:text="${aemployeeProjectsCnt.getfirstname}">
+		<td th:text="${aemployeeProjectsCnt.getlastname}">
+		<td th:text="${aemployeeProjectsCnt.getprojectcount}">			
+		</tr>
+	</tbody>
+	</table>
+</body>
+</html>
