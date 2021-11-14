@@ -21,5 +21,5 @@ public class TestService {
 	public TestService(@Qualifier("testPrimaryandQualifier1")  TestPrimaryandQualifier tpq) {
 		super();
 		this.tpq=tpq;
-		}
+		} 
 }
