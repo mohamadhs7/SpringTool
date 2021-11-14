@@ -46,7 +46,7 @@
 			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="C:/Users/sadeghi/.m2/repository/org/springframework/boot/spring-boot-test/2.5.5/spring-boot-test-2.5.5.jar" sourcepath="C:/Users/sadeghi/.m2/repository/org/springframework/boot/spring-boot-test/2.5.5/spring-boot-test-2.5.5-sources.jar">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -61,6 +61,28 @@
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-test"/>
+			<attribute name="maven.version" value="5.3.10"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/admin/.m2/repository/org/springframework/boot/spring-boot-test/2.5.5/spring-boot-test-2.5.5.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/admin/.m2/repository/org/springframework/boot/spring-boot-test/2.5.5/spring-boot-test-2.5.5-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="org.springframework.boot"/>
+			<attribute name="maven.artifactId" value="spring-boot-test"/>
+			<attribute name="maven.version" value="2.5.5"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/admin/.m2/repository/org/springframework/spring-test/5.3.10/spring-test-5.3.10.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/admin/.m2/repository/org/springframework/spring-test/5.3.10/spring-test-5.3.10-javadoc.jar!/"/>
 			<attribute name="maven.groupId" value="org.springframework"/>
 			<attribute name="maven.artifactId" value="spring-test"/>
 			<attribute name="maven.version" value="5.3.10"/>
